@@ -1,4 +1,4 @@
-{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+
+    background-image: url("assets/bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container{
